@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>
+      SkillForge - A Responsive Landing Page | HTML, CSS & Javascript
+    </title>
+
+    <!-- ==== STYLE.CSS ==== -->
+    <link rel="stylesheet" href="./CSS/style.css" />
+
+    <!-- ====  REMIXICON CDN ==== -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!-- ==== ANIMATE ON SCROLL CSS CDN  ==== -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    />
+  </head>
+  <body>
+    <!-- ======
+      HEADER
+      ====== -->
+    <header class="container header">
+      <!-- ======  NAVBAR  ====== -->
+      <nav class="navbar">
+        <!-- ==== LOGO  ==== -->
+        <div class="logo">
+          <a href="#">skill<span>forge</span></a>
+        </div>
+        <!-- ==== NAV-MENU ==== -->
+        <div class="nav__menu">
+          <!-- ==== NAV-MENU-LIST ==== -->
+          <ul class="nav__menu_list">
+            <!-- ==== NAV-MENU-LIST-ITEM ==== -->
+            <li class="nav_menu_list_item">
+              <!-- ==== NAV-LINK ==== -->
+              <a href="#" class="nav__link active">home</a>
+            </li>
+
+            <!-- ==== NAV-MENU-LIST-ITEM ==== -->
+            <li class="nav_menu_list_item">
+              <!-- ==== NAV-LINK ==== -->
+              <a href="#" class="nav__link">about</a>
+            </li>
+
+            <!-- ==== NAV-MENU-LIST-ITEM ==== -->
+            <li class="nav_menu_list_item">
+              <!-- ==== NAV-LINK ==== -->
+              <a href="#" class="nav__link">courses</a>
+            </li>
+
+            <!-- ==== NAV-MENU-LIST-ITEM ==== -->
+            <li class="nav_menu_list_item">
+              <!-- ==== NAV-LINK ==== -->
+              <a href="#" class="nav__link">contact</a>
+            </li>
+
+            <!-- ==== LOGIN-BTN ==== -->
+            <!-- ==== NAV-MENU-LIST-ITEM ==== -->
+            <li class="nav_menu_list_item">
+              <button class="login__btn">Login</button>
+            </li>
+          </ul>
+        </div>
+
+        <!-- ==== NAV-TOGGLE-BUTTON ==== -->
+        <button class="nav_toggle_btn">
+          <i class="ri-menu-fill ri-xl"></i>
+        </button>
+      </nav>
+    </header>
+
+    <!-- ======
+      HERO
+      ====== -->
+    <main class="hero container">
+      <!-- ==== HERO-INFO-WRAPPER ==== -->
+      <section class="hero__info_wrapper">
+        <!-- ==== BADGE ==== -->
+        <div class="badge">
+          <span class="badge_stat">50% OFF</span>
+          <span class="badge_text">LEARN FROM TODAY</span>
+        </div>
+        <!-- ==== HERO-INFO ==== -->
+        <div class="hero__info">
+          <h1 class="hero__heading">
+            Transform Your Career <br />
+            Path with <span>SkillForge</span>
+          </h1>
+          <p class="hero_subtext">
+            Fast, easy and free way to effectively learn things easily and quiet
+            subtle manner in no time.
+          </p>
+        </div>
+        <!-- ==== HERO-CTA-BUTTON ==== -->
+        <button class="hero__cta_btn">
+          <img
+            src="./images/play-circle-rounded.png"
+            alt="play-circle-rounded"
+          />
+          <span>Start learning</span> it's free!
+        </button>
+
+        <!-- ==== JOINED-STUDENTS ==== -->
+        <div class="joined_students">
+          <!-- ==== STUDENT-IMAGES ==== -->
+          <div class="students_imgs">
+            <img src="./images/student-4.jpg" alt="students_imgs" />
+            <img src="./images/student-2.jpg" alt="students_imgs" />
+            <img src="./images/student-5.jpg" alt="students_imgs" />
+            <img src="./images/student-2.jpg" alt="students_imgs" />
+            <img src="./images/student-1.jpg" alt="students_imgs" />
+            <img src="./images/student-6.jpg" alt="students_imgs" />
+          </div>
+          <!-- ==== STUDENTS-JOINED-TEXT ==== -->
+          <p class="students_joined_text">
+            <span>250,000+ </span> Student's joined last year !
+          </p>
+        </div>
+      </section>
+
+      <!-- ==== DIRECTION-ARROW ==== -->
+      <img
+        src="./images/direction-arrow-element.png"
+        alt="direction-arrow-element"
+        class="direction_arrow"
+      />
+
+      <!-- ==== POLYGON-ELEMENT-1 ==== -->
+      <img
+        src="./images/polygon-element-1.png"
+        alt="polygon-element-1"
+        class="polygon_element element--1"
+      />
+
+      <!-- ==== HERO-IMG-WRAPPER ==== -->
+
+      <section class="hero__img_wrapper">
+        <img
+          src="./images/boy-studying-remotely-with-tutor.png"
+          alt="boy-studying-remotely-with-tutor"
+        />
+        <!-- ==== FADE-BACKGROUND ==== -->
+
+        <div class="fade__bg fade--bg-1"></div>
+        <div class="fade__bg fade--bg-2"></div>
+      </section>
+    </main>
+
+    <!-- ======
+      FEATURED-SECTION
+      ====== -->
+    <section
+      class="featured_section container"
+      data-aos="fade-up"
+      data-aos-duration="1000"
+    >
+      <!-- ==== FEATURED-BRAND-IMAGES ==== -->
+      <div class="featured_brand_img">
+        <img src="./images/brand-1.png" alt="brand-1" />
+        <img src="./images/brand-2.png" alt="brand-2" />
+        <img src="./images/brand-3.png" alt="brand-3" />
+        <img src="./images/brand-4.png" alt="brand-4" />
+        <img src="./images/brand-5.png" alt="brand-5" />
+      </div>
+    </section>
+
+    <!-- ======
+      FEATURES-SECTION
+      ====== -->
+    <section
+      class="features_section"
+      data-aos="fade-up"
+      data-aos-duration="1500"
+    >
+      <!-- ==== FEATURES-CARDS-CONTAINER ==== -->
+      <div class="features_cards container">
+        <!-- ==== FEATURES-CARD ==== -->
+        <div class="features_card">
+          <img
+            src="./images/group-young-people-discussing.png"
+            alt="group-young-people-discussing"
+          />
+          <h4>Join with team</h4>
+          <p>
+            Joining a team can be a great opportunity to colloborate with
+            like-minded individuals.
+          </p>
+        </div>
+        <!-- ==== FEATURES-CARD ==== -->
+        <div class="features_card">
+          <img src="./images/boy-carrying-books.png" alt="boy-carrying-books" />
+          <h4>1000+ Curated Course</h4>
+          <p>
+            Accessing 1000+ curated courses provides a diverse and comprehensive
+            guidance.
+          </p>
+        </div>
+        <!-- ==== FEATURES-CARD ==== -->
+        <div class="features_card">
+          <img
+            src="./images/open-box-with-coupons.png"
+            alt="open-box-with-coupons"
+          />
+          <h4>Attractive Pricing</h4>
+          <p>
+            Attractive Pricing means offering customers a fair and competitive
+            price that reflects the value.
+          </p>
+        </div>
+      </div>
+
+      <!-- ==== POLYGON-ELEMENT-2 ==== -->
+      <img
+        src="./images/polygon-element-2.png"
+        alt="polygon-element-2"
+        class="polygon_element element--2"
+      />
+    </section>
+
+    <!-- ======
+     FOOTER-LINE
+      ====== -->
+    <div class="footer_line"></div>
+
+    <!-- ==== ANIMATE ON SCROLL JS CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <!-- ==== GSAP CDN ==== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <!-- ==== SCRIPT.JS ==== -->
+    <script src="./JS/script.js"></script>
+  </body>
+</html>
