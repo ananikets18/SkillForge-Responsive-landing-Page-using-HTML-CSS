@@ -1,1 +1,1 @@
-# SkillForge-Responsive-landing-Page-using-HTML---CSS
+# SkillForge Responsive Landing Page using HTML CSS & JS
